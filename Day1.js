@@ -30,8 +30,8 @@ const FindLongestWord=(str)=>{
 
 // method 2
 
-ans=strArr.reduce((acc,currElem)=>currElem.length>acc.length?currElem:acc,'')
-console.log(ans)
+strArr=strArr.reduce((acc,currElem)=>currElem.length>acc.length?currElem:acc,'')
+console.log(strArr)
 
 }
 
