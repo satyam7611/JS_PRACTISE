@@ -21,10 +21,10 @@ const generateHash=(str)=>{
     // converting the str to array
     strArr=str.split(" ");
     // converting the first letter to uppercase
-    words=strArr.map((currEle,index)=>currEle.charAt(0).toUpperCase()+currEle.slice(1))
+    strArr=strArr.map((currEle,index)=>currEle.charAt(0).toUpperCase()+currEle.slice(1))
 
-    strNew=`#${words.join("")}`;
-    return strNew
+    strArr=`#${strArr.join("")}`;
+    return strArr;
 
 }
 
