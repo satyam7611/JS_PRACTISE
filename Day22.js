@@ -1,4 +1,4 @@
-//  Write a function to count the occurrence of a number and store it in a object
+//  Write a  callback function to count the occurrence of a number and store it in a object
 
 const countOccur = (arr) => {
     let obj = {};
